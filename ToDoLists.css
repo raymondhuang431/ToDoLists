@@ -1,0 +1,293 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body {
+    background-color: #E1E1E1;
+}
+
+.container {
+    width: 620px;
+    margin: 0 auto;
+}
+
+.container2 {
+    width: 556px;
+    margin: 0 auto;
+    
+}
+
+.header {
+    height: 76px;
+    background-color: #4A90E2;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 22px;
+}
+
+.header-row {
+    font-size: 24px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 23px;
+    padding-bottom: 25px;
+    width: 662px;
+}
+
+.selected {
+    color: #FFFFFF;
+}
+
+.header-item {
+    width: 220px;
+    text-align: center;
+}
+
+.write-area {
+    background-color: #F2F2F2;
+    box-shadow: 0 4px 4px 0 #C8C8C8;
+    border-radius: 5px;
+}
+
+.write-title {
+    border-bottom: 2px solid #C8C8C8;
+    display: flex;
+    justify-content: space-between;
+    height: 52px;
+    padding-top: 24px;
+    font-size: 24px;
+}
+
+.write-content{
+    margin-left: 72px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    font-family: Roboto-Medium;
+    font-size: 20px;
+    color: #000000;
+}
+
+.deadline-icon, .file-icon ,.comment-icon{
+    display: flex;
+    margin-bottom: 8px;
+}
+
+.deadline-icon .file-icon .comment-icon, p{
+margin-left: 9px;
+}
+
+.deadline,.file{
+    margin-bottom: 22px;
+}
+
+.comment textarea{
+    width: 445px;
+    height: 120px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+
+.cancel-button,
+.add-button {
+    display: flex;
+    width: 310px;
+    font-family: Roboto-Regular;
+    font-size: 24px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.add-button {
+    background-color: #4A90E2;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cancel-button{
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    background: #FFF2DC;
+    height: 78px;
+    width: 620px;
+    margin-bottom: 8px;
+    padding-top: 24px;
+}
+
+.content-title {
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    padding-bottom: 17px;
+}
+
+.content-memo p{
+    display:inline-block;
+}
+
+.content-memo .fa-file {
+    margin-left: 16px;
+}
+
+.content-memo .fa-comment-dots{
+    margin-left: 16px;
+}
+
+.content-input {
+    display: flex;
+}
+
+.content-edit .fa-edit{
+    margin-left: 32px;
+}
+
+.bottom{
+    font-family: Roboto-Italic;
+font-size: 24px;
+color: #C8C8C8;
+margin-left: 33px;
+}
