@@ -1,0 +1,23 @@
+callback(
+    [{
+            ID: 1,
+            ProductName: "A",
+            ActualPickUpPieces: 0,
+        },
+        {
+            ID: 2,
+            ProductName: "B",
+            ActualPickUpPieces: 2,
+        },
+        {
+            ID: 3,
+            ProductName: "c",
+            ActualPickUpPieces: 4,
+        },
+        {
+            ID: 4,
+            ProductName: "d",
+            ActualPickUpPieces: 5,
+        },
+    ]
+)
