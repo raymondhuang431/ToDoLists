@@ -1,9 +1,5 @@
 callback(
-    [{
-            ID: 1,
-            ProductName: "A",
-            ActualPickUpPieces: 0,
-        },
+    [
         {
             ID: 2,
             ProductName: "B",
